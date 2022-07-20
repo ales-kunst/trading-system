@@ -5,4 +5,6 @@ open module com.apssouza.mytrade.runner {
     requires spring.boot.autoconfigure;
     requires spring.context;
     requires spring.web;
+    requires spring.core;
+    requires spring.beans;
 }
